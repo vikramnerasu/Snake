@@ -119,10 +119,10 @@ public class Snake extends Activity {
      * DPAD.
      *
      */
-    public boolean testfunc(int keyCode, KeyEvent msg) {
-    	return 
+    public boolean testfunc() {
+    	return true;
     }
-    }
+    
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent msg) {
 
